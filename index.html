@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Những điều cơ bản về GIT</title>
+</head>
+<body>
+        <h1> Version Control System</h1>
+        <hr>
+        <p title="Day la phan 1">
+            * Repository
+            <br>
+            Repository (nhà kho) hay được gọi tắt là Repo đơn giản là nơi chứa/cơ sở dữ liệu (database) tất cả những thông tin cần thiết
+            để duy trì và quản lý các sửa đổi và lịch sử của dự án.
+            <br>
+            Trong Repo có 2 cấu trúc dữ liệu chính là Object Store và Index. Tất cả dữ liệu của Repo đều được chứa trong thư mục bạn đang làm việc
+            dưới dạng folder ẩn có tên là.git (không có phần tên trước dấu chấm).
+            <br>
+            * Object store
+            <br>
+             Object store là trái tim của Git, nó chứa dữ liệu nguyên gốc (original data files), các file log ghi chép quá trình sửa đổi,
+            tên người tạo file, ngày tháng và các thông tin khác. Git có bốn loại object là: Blobs, Trees, Commits, Tags
+            <br>
+            * Blobs: là file nhị phân có thể chứa được mọi loại dữ liệu bất kể là dữ liệu của chương trình gì.
+            <br>
+            * Trees: lớp đại diện cho thông tin thư mục như thông tin định danh của blob, đường dẫn, chứa một ít metadata chứa thông tin cấu trúc
+            và các thư mục nhỏ có trong thư mục đó.
+            <br>
+            * Commits: Chứa metadata có thông tin về mọi thứ như tên tác giả, người tải lên (commiter), ngày tải lên, thông tin log...
+            <br>
+            * Tags: đánh dấu cho dễ đọc. Thay vì một cái tên dài như là 9da581d910c9c4ac93557ca4859e767f5caf5169, chúng ta có thể tên tag là Ver-1.0- Alpha.
+            Dễ nhớ và dễ sử dụng hơn.
+            <br>
+            * Index
+            Index là file nhị phân động và tạm thời miêu tả cấu trúc thư mục của toàn bộ Repo và trạng thái của dự án được thể hiện thông qua commit và tree tại một thời điểm nào đó trong lịch sử phát triển. Git là một hệ thống truy tìm nội dung (content tracking system).
+            Index không chứa nội dung file mà chỉ dùng để truy tìm (track) những thứ mà bạn muốn commit.
+            <br>
+            <a href="https://vi.wikipedia.org/wiki/Git_(ph%E1%BA%A7n_m%E1%BB%81m)"> Tham khảo thêm tại đây.</a>
+        </p>
+        <a href="https://vi.wikipedia.org/wiki/Git_(ph%E1%BA%A7n_m%E1%BB%81m)">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/150px-Git-logo.svg.png" alt="Tam thoi hinh nay khong hoat dong">
+
+        </a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/150px-Git-logo.svg.png" alt="Tam thoi hinh nay khong hoat dong">
+        <p>
+            GitHub là một dịch vụ cung cấp kho lưu trữ mã nguồn Git dựa trên nền web cho các dự án phát triển phần mềm.
+            GitHub cung cấp cả phiên bản trả tiền lẫn miễn phí cho các tài khoản. <br>Các dự án mã nguồn mở sẽ được cung cấp kho lưu trữ miễn phí. Tính đến tháng 4 năm 2016, GitHub có hơn 14 triệu người sử dụng với hơn 35 triệu kho mã nguồn, làm cho nó trở thành máy chủ chứa mã nguồn lớn trên thế giới.
+
+            Github đã trở thành một yếu tố có sức ảnh hưởng trong cộng đồng phát triển mã nguồn mở.
+            <br> Thậm chí nhiều nhà phát triển đã bắt đầu xem nó là một sự thay thế cho sơ yếu lý lịch và một số nhà tuyển dụng yêu cầu các ứng viên cung cấp một liên kết đến tài khoản Github để đánh giá ứng viên.
+
+            Vào ngày 4 tháng 6 năm 2018, Microsoft đã thông báo việc đạt được thỏa thuận mua lại GitHub với giá 7.5 tỷ Đô la Mỹ. Ngày chính thức chuyển nhượng quyền sở hữu không được công bố.
+        </p>
+        <a href="tesbookmark">Thong tin them</a>
+        <a href="index.html" target="_blank"> Trang chu</a>
+
+</body>
+</html>
